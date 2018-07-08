@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Module 01</title>
+</head>
+<body>
+<h1>Module 01:  Introduction to HTML</h1>
+<h2>by <em>Andy Henderson</em> aka <em>General Chickencat</em></h2>
+<hr>
+<h3>General Chicken Recipe</h3>
+<figure>
+<a href="https://www.skinnytaste.com/general-tsos-chicken/" target="_blank">
+<img src="http://graypawn.wdfiles.com/local--files/imagebin/GeneralChicken.jpg" alt="General Tso's Chicken" title="a link to skinnytaste" Height="200" /></a>
+<figcaption>
+<p>A recipe for delicious noodles</p>
+</figcaption>
+</figure>
+<h4>More Recipes:</h4>
+<a href="https://www.allrecipes.com/recipe/9009/springfield-style-cashew-chicken-i/" target="_blank"><img src="http://graypawn.wdfiles.com/local--files/imagebin/cashewchicken.jpg" alt="Cashew Chicken" title="Recipe for Cashew Chicken" width="150" height="150" /></a>
+<a href="https://damndelicious.net/2014/06/25/pineapple-fried-rice/" target="_blank"><img src="http://graypawn.wdfiles.com/local--files/imagebin/PinneappleFriedRice.jpg" alt="Pinneapple Fried Rices" title="Recipe for Pinneapple Fried Rice" width="150" height="150" /></a>
+<a href="https://www.kitchensanctuary.com/crispy-sesame-chicken-sticky-asian-sauce/" target="_blank"><img src="http://graypawn.wdfiles.com/local--files/imagebin/SesamyChicken.jpg" alt="Seseame Chicken" title="Recipe for Sesame Chicken" width="150" height="150" /></a>
+<a href="https://www.simplyrecipes.com/recipes/sweet_and_sour_chicken/" target="_blank"><img src="http://graypawn.wdfiles.com/local--files/imagebin/SweetandSour.jpg" alt="Sweet & Sour Chicken" title="Recipe for Sweet & Sour Chicken" width="150" height="150" /></a>
+<a href="http://www.geniuskitchen.com/recipe/perfect-basic-white-rice-137364" target="_blank"><img src="http://graypawn.wdfiles.com/local--files/imagebin/WhiteRice.jpg" alt="Plain White Rice Goes With Everything" title="also you'll need plain white rice" width="150" height="150" /></a>
+<br>
+<br>
+<p>
+<a href="http://generalchickencat.github.io/PROG-109/index.html">The Mother of All Home Pages</a>
+</p>
+</body>
+</html>
