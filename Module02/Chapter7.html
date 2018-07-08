@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module02ExercisesPart2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Module 02 Exercises</h1>
+    <h2>Chapter 7:  the Forms</h2>
+    <p><em>sign me up</em></p>
+    <hr>
+    <h3><em>User Information</em></h3>
+    <form action="ThankYou.html">
+    <p>Username:<br>
+      <input type="text" name="username" size="20" maxlength="40" />
+      </p>
+    <p>Password:<br>
+      <input type="password" name="password" size="20" maxlength="40" />
+      </p>
+    <p>Tell us about you:<br>
+      <textarea name="comments" cols="23" rows="4">&nbsp;</textarea>
+      </p>
+    </form>
+    <form action="ThankYou.html">
+    <p>Are you new to my site?<br>
+      <br />
+      <input type="radio" name="newcomer" value="yes" />  Yes
+      <input type="radio" name="newcomer" value="no" />  No
+    </p>
+    </form>
+    <form action="ThankYou.html">
+      <p>Do you want to subscribe to my site?<input type="checkbox" name="subscriber" value="yes">
+      </p>
+      </form>
+      <br>
+      
+      <form action="ThankYou.html">
+        <p>What is your student's year?
+        <select name="Year">
+          <option value="Aspiring">Aspiring</option>
+          <option value="Questioning">Questioning</option>
+          <option value="Curious">Curious</option>
+          <option value="Determined">Determined</option>
+          <option value="Resigned">Resigned</option>
+        </select>
+        </p>
+      </form>
+      <form action="ThankYou.html">
+      <p>How did you hear about me?</p>
+        <select name="Rumors" size="4" multiple="multiple">
+        <option value="Macklin">From that Cad, Macklin</option>
+        <option value="Peaches">From that prince of the universe, Peaches</option>
+        <option value="Bilbo">From that seer and sorcer, Bilbo BLHOTA</option>
+        <option value="Lukas">From the greatest gazeteer, Luka-Luka</option>
+        </select>
+      </form>
+      <br>
+      <form action="ThankYou.html">
+        <button><img src="Images/send-button-md.png" alt="send" width="20">SEND </button>
+        <input type="hidden" name="send" value="send">
+      </form>
+  </body>
+</html>
