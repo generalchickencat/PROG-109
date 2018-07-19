@@ -1,0 +1,13 @@
+var firstName;
+var lastName;
+var firstName = prompt (Please endter your first name); var lastName = prompt (Please enter your last name);
+
+/* alert: Welcome User!
+var firstname;
+var lastname;
+
+prompt:  Ask the user for the firstname and store it in variable firstname (var firstname;)
+prompt:  Ask the user for the second name and store it in a variable lastname (var lastname;)
+In the Message concatenate the firstname and lastname  (HINT:  Concatenation in Javascript is done by the + symbol).
+Display message by using: 
+document.write('<h3>' + message + '</h3>'); */
