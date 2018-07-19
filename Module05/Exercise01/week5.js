@@ -1,6 +1,4 @@
-var firstName;
-var lastName;
-var firstName = prompt (Please endter your first name); var lastName = prompt (Please enter your last name);
+var firstName = prompt (Please enter your first name); var lastName = prompt (Please enter your last name);
 
 /* alert: Welcome User!
 var firstname;
