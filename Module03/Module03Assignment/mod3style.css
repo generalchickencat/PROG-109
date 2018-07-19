@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #665544;
+    padding: 0 15% 0 15%;
+    background-color: #fef7e7;
+  }
+  
+  .altdiv {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #17a33d;
+  }
+  
+  .alth1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    padding: 0 8% 0 20%;
+    line-height: 1em;
+    color:darkslategray;
+    text-align:center;
+  }
+  
+  .alth2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #17a33d;
+    line-height: 1em;
+  }
+  
+  .altp {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #17a33d;
+    line-height: 2em;
+  }
+  
+  h1 {
+    text-align:center;
+    color:blue;
+    font-family: 'DancingScriptRegular';
+    font-size:400%;
+  }
+  
+  p {
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:200%;
+  }
+  
+  i {
+    color:darkgreen;
+    }
