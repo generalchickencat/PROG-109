@@ -11,6 +11,15 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;}
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #ffeec9;
+  }
 
 h1, h3, p {
   float: left;
