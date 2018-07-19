@@ -1,4 +1,4 @@
-var firstName = prompt("Please enter your first name");
+var firstName = prompt("Please enter your first name"); var secondName = prompt("Please enter your last name");
 
 
 /* alert: Welcome User!
