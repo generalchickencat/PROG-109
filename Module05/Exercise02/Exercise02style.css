@@ -1,0 +1,24 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/tape-403592_1920.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    }
+  
+h1 { 
+    font-family: 'BebasNeueBold'; 
+    font-weight: normal; 
+    font-style: normal; 
+    }
