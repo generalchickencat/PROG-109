@@ -10,11 +10,11 @@ var weight = prompt("please enter your Weight in pounds", "220")
 
 var bmi = (weight / (height * height) * 703)
 
-if (height == null || height == "") {
-    bmi = "eh, you're probably fine."
+if (height == undefined || height == "") {
+    bmiMessage = "eh, you're probably fine."
 }
-if (weight == null || weight == "") {
-    bmi = "eh, you're probably fine."
+if (weight == undefined || weight == "") {
+    bmiMessage = "eh, you're probably fine."
 }
 
 if (bmi >= 19 && bmi <= 25) {
