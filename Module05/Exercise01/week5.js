@@ -1,8 +1,8 @@
-var firstName = prompt("Please enter your first name"); var secondName = prompt("Please enter your last name");
+var firstName = prompt("Please enter your first name", "Cap"); var secondName = prompt("Please enter your last name", "Bucky");
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-
+ 
 if (hourNow > 18) {
     greeting = 'Good evening ';
 } else if (hourNow > 12) {
@@ -12,8 +12,8 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome ';
 }
-
-document.write('<h3>' + greeting + firstName + '</h3>');
+var message = greeting + " " + firstName + " " + secondName;
+document.write('<h3>' + message + '</h3>');
 
 /* alert: Welcome User!
 var firstname;
