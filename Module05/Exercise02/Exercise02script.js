@@ -1,20 +1,31 @@
 function myFunction() {
-    var txt;
-    var Height;
-    var Weight;
+    var bmiMessage;
+    var bmi;
+    var height;
+    var weight;
     var personName;
 
-    var personName = prompt("Please enter your name", "Guy Fieri");
-    if (personName == null || personName == "") {
-        txt = "I wouldn't give my name either";
-    } else {
-        txt = "Hello " + personName + "! How are you today?";
-    } 
+var height = prompt("please enter your Height in inches", "76")
+var weight = prompt("please enter your Weight in pounds", "220")
 
-/*    var Height = prompt("Please enter your Height in Feet", "6\'4\"");
-    var Weight = prompt("Please enter your Weight in pounds", "206");
+var bmi = (weight / (height * height) * 703)
 
-    var BMI = Weight / (Height x Height) x 703
-*/    
-    document.getElementById("demo").innerHTML = txt;
+if (height == null || height == "") {
+    bmi = "eh, you're probably fine."
+}
+if (weight == null || weight == "") {
+    bmi = "eh, you're probably fine."
+}
+
+if (bmi >= 19 && bmi <= 25) {
+    bmiMessage = "you're Normal"
+}
+else if (bmi >= 26 && bmi <= 30) {
+    bmiMessage = "you're Overweight"
+}
+else if (bmi >= 31) {
+    bmiMessage = "you're Obeeeeez"
+}
+ 
+    document.getElementById("demo").innerHTML = bmiMessage;
 }
