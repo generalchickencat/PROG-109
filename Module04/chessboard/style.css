@@ -1,0 +1,97 @@
+/* Here's my font options - i picked one that's kinda fancyhandwritteny
+p { 
+    font-family: 'AnalectaRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+ }
+ p { 
+   font-family: 'YantiqRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+ */
+
+ * {
+     text-align: center
+ }
+
+ body {
+     background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/the-western-gaines-request.jpg");     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+ }
+ 
+ h1 {
+     font-family: 'analectaRegular';
+     font-weight: normal;
+     font-style: normal;
+     color: #fffff9;
+     font-size: 5em;
+     margin: 2% 0% 10% 0%;
+     background-color: rgba(80, 59, 6, 0.541);
+ }
+ #board {
+    margin: auto;
+    background-color: gray;
+    width: 800px;
+    height: 800px;
+    }
+.space {
+    float: left;
+    height: 12.5%;
+    width: 12.5%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+.black {
+    background-color: #1c1d1d;
+}
+.white {
+    background-color: lightyellow;
+}
+
+.blackrook {
+    background-image: url("chess_icons/black-castle.png");
+}
+.blackknight {
+    background-image: url("chess_icons/black-knight.png");
+}
+.blackbishop {
+    background-image: url("chess_icons/black-bishop.png");
+}
+.blackqueen {
+    background-image: url("chess_icons/black-queen.png");
+}
+.blackking {
+    background-image: url("chess_icons/black-king.png");    
+}
+.blackpawn {
+    background-image: url("chess_icons/black-pawn.png");
+}
+
+.whiterook {
+    background-image: url("chess_icons/gold-castle.png");
+}
+.whiteknight {
+    background-image: url("chess_icons/gold-knight.png");
+}
+.whitebishop {
+    background-image: url("chess_icons/gold-bishop.png");
+}
+.whitequeen {
+    background-image: url("chess_icons/gold-queen.png");
+}
+.whiteking {
+    background-image: url("chess_icons/gold-king.png");    
+}
+.whitepawn {
+    background-image: url("chess_icons/gold-pawn.png");
+}
+
+footer {
+    background-color: rgba(80, 59, 6, 0.541);
+    padding: 2px;
+    margin-top: 10%;
+}
