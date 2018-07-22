@@ -1,11 +1,10 @@
 //Unit of Table
 var table
-var operator
-
 
 function execute () {
     //message
     var msg = '';
+    var operator = '';
     table = prompt("Enter a number from 1-10", 5);
 if (!(table >= 1 && table <= 10)) {
   table = prompt("Try again. A number. 1-10. You can do this.");
