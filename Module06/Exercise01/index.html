@@ -9,8 +9,43 @@
     <section id="page2">
       <h1>Bullseye</h1>
       <img src="http://javascriptbook.com/code/c04/images/teacher.png" id="teacher2" alt="" />
-      <section id="blackboard"></section>
+      
+      <p>Choose your Math!</p>
+      <p>    <input type="radio" name="operator" value="add" id="add" checked="checked" /> Add
+             <input type="radio" name="operator" value="multiply" id="multiply" /> Multiply
+      </p>
+      <p>Click the "Try it" button to find out whether the radio button is checked, or not.</p>
+        <button onclick="execute()">Try it</button>
+      <section id="blackboard">
+      </section>
+
     </section>
     <script src="scripts.js"></script>
   </body>
 </html>
+
+<!-- 
+    <!DOCTYPE html>
+<html>
+<body>
+
+Radio button:<input type="radio" name="button" value="one" id="myRadio" checked>one<br>
+<input type="radio" name="button" value="two" id="myRadio">two
+
+<p>Click the "Try it" button to find out whether the radio button is checked, or not.</p>
+
+<button onclick="execute()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function execute() {
+    var x = document.getElementById("myRadio").checked;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
+
+-->
