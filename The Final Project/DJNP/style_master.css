@@ -1,8 +1,6 @@
-/* * {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}*/
 
+
+/*Use ID homepage on pages with a single logo in the middle*/
 body.homepage {
     background-color: #000000;
     background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_transparent.png");
@@ -13,7 +11,7 @@ body.homepage {
     margin: auto;
     color: #ffffff;
     }
-
+/*Use ID halfbunny on pages with content in the center of the page*/
 body.halfbunny {
     background-color: #000000;
     background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_RobotFace.png"), url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_RabbitFace.png");
@@ -36,7 +34,6 @@ body.halfbunny {
     }
 
 .centerlist {
-    float: center;
     display: inline;
     padding: 0.5em;
     margin: .2 em;
@@ -46,9 +43,35 @@ body.halfbunny {
 #homecontent {
     margin: 10%;
 }
-.subcontent {
+#subcontent {
     margin: 10% 20%;
 }
+
+#timeday {
+    position: absolute;
+    left: 0px;
+    bottom: 20%;
+    font-family: 'Segment7Standard', courier, monospace; 
+    font-weight: normal; 
+    font-style: normal; 
+    background-color: #e8112d;
+    text-align: center;
+    color: #ffffff;
+    width: 20%;
+    }
+
+#showclock {
+    position: absolute;
+    right: 0px;
+    bottom: 20%;
+    font-family: 'Segment7Standard', courier, monospace; 
+    font-weight: normal; 
+    font-style: normal; 
+    background-color: #e8112d;
+    color: #ffffff;
+    text-align: center;
+    width: 20%;
+    }
 
 a:visited {
     color: #790707;
