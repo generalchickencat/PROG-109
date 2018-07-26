@@ -1,13 +1,47 @@
-* {
+/* * {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-}
+}*/
 
 body {
     width: 90%;
     margin: 0 auto;
-    background-color: #05345c;
-    background-image: url("");
+    background-color: #000000;
+    width: 90%;
+    margin: auto;
+    background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_transparent.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
+}
+
+#header {
+    font-family: 'PressStart2PRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 1em;
+    background-color: #e8112d;
+    padding: 0.1em 0;
+    color: #ffffff;
+    margin: 10% 0% 0% 0%;
+    }
+
+li {
+    float: center;
+    display: inline;
+    padding: 0.5em;
+    }
+
+a.navlinks:visited {
+    color:#BE1E2D;
+    }
+  
+a.navlinks:active {
+    color: #eb0088;
+    }
+  
+a.navlinks:link {
+    color: #ffffff;
     }
   
