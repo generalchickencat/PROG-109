@@ -24,11 +24,11 @@ body {
     background-color: #e8112d;
     padding: 0.1em 0;
     color: #ffffff;
-    margin: 10% 0% 0% 0%;
+    margin: 7% 0% 0% 0%;
     text-align: center;
     }
 
-li {
+#centerlist {
     float: center;
     display: inline;
     padding: 0.5em;
