@@ -44,6 +44,9 @@ body.halfbunny {
     margin: 10%;
 }
 #subcontent {
+    font-family: 'RobotoRegular', arial, Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
     margin: 10% 20%;
 }
 
