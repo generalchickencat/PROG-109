@@ -1,0 +1,13 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #05345c;
+    background-image: url("");
+    background-attachment: fixed;
+    }
+  
