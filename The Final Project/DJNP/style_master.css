@@ -3,16 +3,26 @@
     text-align: center;
 }*/
 
-body {
+body.homepage {
     background-color: #000000;
-    width: 90%;
-    margin: auto;
     background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_transparent.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    margin: auto;
+    color: #ffffff;
     }
+
+body.halfbunny {
+    background-color: #000000;
+    background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_RobotFace.png"), url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_RabbitFace.png");
+    background-size: 27%;
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+    margin: auto;
+    color: #ffffff;
+}
 
 #header {
     font-family: 'PressStart2PRegular', courier, monospace; 
@@ -32,14 +42,30 @@ body {
     margin: .2 em;
     }
 
-a.navlinks:visited {
-    color: #BE1E2D;
+
+#homecontent {
+    margin: 10%;
+}
+.subcontent {
+    margin: 10% 20%;
+}
+
+a:visited {
+    color: #790707;
+    text-decoration: none;
     }
   
-a.navlinks:active {
-    color: #eb0088;
+a:active {
+    color: #eb008b;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
     }
   
-a.navlinks:link {
+a:link {
     color: #ffffff;
+    text-decoration: none;
     }
