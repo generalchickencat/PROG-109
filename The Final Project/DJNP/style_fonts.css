@@ -4,8 +4,6 @@
 }*/
 
 body {
-    width: 90%;
-    margin: 0 auto;
     background-color: #000000;
     width: 90%;
     margin: auto;
@@ -14,17 +12,16 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-}
+    }
 
 #header {
-    font-family: 'PressStart2PRegular'; 
+    font-family: 'PressStart2PRegular', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
-    font-size: 1em;
     background-color: #e8112d;
     padding: 0.1em 0;
     color: #ffffff;
-    margin: 7% 0% 0% 0%;
+    margin: 7% 0% 10% 0%;
     text-align: center;
     }
 
@@ -32,10 +29,11 @@ body {
     float: center;
     display: inline;
     padding: 0.5em;
+    margin: .2 em;
     }
 
 a.navlinks:visited {
-    color:#BE1E2D;
+    color: #BE1E2D;
     }
   
 a.navlinks:active {
@@ -45,4 +43,3 @@ a.navlinks:active {
 a.navlinks:link {
     color: #ffffff;
     }
-  
