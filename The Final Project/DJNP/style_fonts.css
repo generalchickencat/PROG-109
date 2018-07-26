@@ -28,7 +28,7 @@ body {
     text-align: center;
     }
 
-#centerlist {
+.centerlist {
     float: center;
     display: inline;
     padding: 0.5em;
