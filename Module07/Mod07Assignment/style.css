@@ -51,7 +51,7 @@ p + h2 {
 #info {
   background-color: #1e1b1e;
   color: #fff;
-  width: 200px;
+  width: 300px;
   padding: 0 15px;
   text-align: center;
   min-height: 100%;
@@ -74,7 +74,7 @@ p + h2 {
     margin-top: 1em; 
     border-top: 1px solid #fff; 
     padding-top: 1em;} 
-  #hotel2 {
+  #hotel4 {
     border-bottom: 1px solid #fff; 
     padding-bottom: 1em;}
 

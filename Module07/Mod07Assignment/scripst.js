@@ -32,10 +32,10 @@ function Hotel(name, rooms, booked) {
   var elHotel3 = document.getElementById('hotel3');
   elHotel3.textContent = details3;
 
-var details4 = silverlineHotel.name + ' rooms: ';
-  details4 += silverlineHotel.checkAvailability();
-var elHotel4 = document.getElementById('hotel4');
-elHotel3.textContent = details4;
+  var details4 = silverlineHotel.name + ' rooms: ';
+   details4 += silverlineHotel.checkAvailability();
+  var elHotel4 = document.getElementById('hotel4');
+   elHotel4.textContent = details4;
 
   
   /* 
