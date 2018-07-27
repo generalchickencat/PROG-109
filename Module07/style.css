@@ -23,6 +23,6 @@ body {
     font-family: 'BebasNeueRegular', Courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
-    color:darkslategray;
-    line-height: 1.5em
+    color:rgb(33, 94, 38);
+    font-size: 1.5em;
     }
