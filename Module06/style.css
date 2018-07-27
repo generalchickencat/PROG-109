@@ -17,3 +17,12 @@ body {
   .body{
     color:darkslategray
   }
+  .motherfooter {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    }
