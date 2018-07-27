@@ -22,14 +22,14 @@
       return this.age >= deadAverage;
     };
   }
+
   */
   // Create two hotel objects
   var abronGenesis = new Hotel('Quay', 40, 25);
   var parkHotel = new Hotel('Park', 120, 77);
   var sunsetHotel = new Hotel('Sunset', 86, 10)
   var silverlineHotel = new Hotel('Silverline', 120, 97)
-  
-  
+
   // Update the HTML for the page
   var details1 = quayHotel.name + ' rooms: ';
       details1 += quayHotel.checkAvailability();

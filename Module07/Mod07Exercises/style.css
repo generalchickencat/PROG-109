@@ -61,7 +61,7 @@ p + h2 {
 
 /* details in the black bar */
 
-#hotelName {
+#speciesName {
   text-transform: uppercase;
   text-align: center; 
   font-size: 120%;
@@ -70,11 +70,11 @@ p + h2 {
   border-bottom: 1px solid #fff; 
   padding: 10px 0;}
 
-  #hotel1 {
+  #zaithen {
     margin-top: 1em; 
     border-top: 1px solid #fff; 
     padding-top: 1em;} 
-  #hotel4 {
+  #draedean {
     border-bottom: 1px solid #fff; 
     padding-bottom: 1em;}
 
