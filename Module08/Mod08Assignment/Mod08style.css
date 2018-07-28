@@ -81,7 +81,7 @@ li {
 .complete {
   background-color: #999;
 	color: #fff;
-	background-image: url("../images/icon-trash.png");
+	background-image: url("http://javascriptbook.com/code/c05/images/icon-trash.png");
 	background-position: center, right;
 	background-repeat: no-repeat;
 	border-top: 1px solid #666;
@@ -90,7 +90,7 @@ li {
 li a {
 	color: #fff;
 	text-decoration: none;
-	background-image: url("../images/icon-link.png");
+	background-image: url("http://javascriptbook.com/code/c05/images/icon-link.png");
 	background-position: center, right;
 	background-repeat: no-repeat;
     padding-right: 36px;}
