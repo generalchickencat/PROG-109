@@ -16,4 +16,19 @@ var position = document.getElementsByTagName('ul')[0];
 
 // Insert the new element into its position.
 position.appendChild(newEl);
+
+//clear the thing
+document.getElementById('new').value='';
+
 }
+
+//does this make the return key work?
+/*
+var input = document.getElementById("new");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("hitbutton").click();
+    }
+});*/
+//i want pizza
