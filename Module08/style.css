@@ -1,38 +1,66 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     padding: 22px;
+    background-color: #d4e7ee;
     }
 
   h1, h2 {
     font-family: 'BebasNeueBold'; 
     font-weight: normal; 
     font-style: normal;
-    color: #17a33d;
+    text-align: center;
+    color: rgb(13, 18, 95);
     line-height: 2em;
     }
 
   i, a, a:hover, a:visited {
-    color: #4fa1c1;
+    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+    color: #ffffff;
     }
 
-  .linkheader{
-    font-style: oblique
-    }
+  .boring {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(13, 18, 95);
+  }
+
+  .littleblock {
+    width: 270px;
+    margin: 12px;
+    padding: 10px;
+    background-color: #4fa1c1;
+    border-style: dotted;
+    border-color: rgb(13, 18, 95);
+    float: left;
+    text-align: center;
+    text-overflow: ellipsis;
+    /* Required for text-overflow to do anything */
+    overflow-wrap: normal;
+  }
 
   .intros {
-    font-family: 'BebasNeueRegular', Courier, monospace; 
+    font-family: 'RabbidHighwaySignIVRegular', Courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
-    color:rgb(33, 94, 38);
-    font-size: 1.5em;
+    color:rgb(13, 18, 95);
+    font-size: 1.3 em;
     }
 
-    .motherfooter {
-      position: fixed;
-      bottom: 0px;
-      left: 0px;
-      padding: 10px;
-      margin: 0px;
-      width: 100%;
-      background-color: #ffffff;
-      }
+  hr {
+    clear: left;
+    margin-top: 30px;
+    margin-bottome: 10px;
+  }
+
+  .motherfooter {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #4fa1c1;
+    font-family: 'RabbidHighwaySignIVRegular', Courier, monospace; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 1.2 em;
+  }
