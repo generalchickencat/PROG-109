@@ -5,6 +5,7 @@
     <meta name="description" content="Artifact 3 - Rhombus Example">
     <meta charset="utf-8">
     <title>Artifact 3 - Rhombus</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -36,11 +37,12 @@
         <option value="@">@</option>
     </select>
     <br>
+    <!-- This is JavaScript that finishes the build of the rhombus? -->
     <button onclick="createRhombus(document.getElementById('rHeight').value,
 document.getElementById('colorEven').value,
 document.getElementById('colorOdd').value,
 document.getElementById('symbol').value);">Display Rhombus</button>
-    <div id="upLeft">Rhombus</div>
+    <div id="upLeft"></div>
     <div id="upRight"></div>
 
     <div class="clear"></div>
@@ -49,11 +51,8 @@ document.getElementById('symbol').value);">Display Rhombus</button>
     <div id="downLeft"></div>
     <div id="downRight"></div>
 
-    <!-- CALL YOUR JAVASCRIPT FILE IF YOU ARE USING A HOSTING ENVIRONMENT
-
-<script src=""></script>
-
--->
+    
+<script src="script.js"></script>
 
 </body>
 
