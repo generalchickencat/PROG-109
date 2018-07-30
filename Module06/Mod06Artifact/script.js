@@ -70,16 +70,16 @@ function upRight(pHeight, pColorEven, pColorOdd, pSymbol) {
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
-    for (i = 1; i <= pHeight; i++) {
+    for (i = pHeight; i > 0; i--) {
         rLine += "<p>";
 
             //fill in the left side function:
-            for (x=1; x<=pHeight-i; x++) {
-            rLine += /*"<span class='blanks'>" + */pSymbol/* + "</span>";*/
+            for (x=0; x<(pHeight-i); x++) {
+            rLine += "<span class='blanks'>" + pSymbol + "</span>";
             }
 
         //Create each line on the Rhombus
-        for (j = x; j <= pHeight; j++) {
+        for (j = 0; j < i; j++) {
 
             //Is the position even or odd so we change the color
             if (j % 2)
@@ -92,7 +92,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
             }
 
         rLine += "</p>";
-        // here is where it goes back to line 15...
+        // here is where it goes back to line 72...
 
     }
 
