@@ -1,6 +1,6 @@
 var currentDate = new Date();
 var day = currentDate.getDate();
-var month = currentDate.getMonth();
+var month = currentDate.getMonth()+1;
 var year = currentDate.getFullYear()+1000;
 
 function countdown(endDate) {
@@ -36,7 +36,7 @@ function countdown(endDate) {
         //document.getElementById("hours").innerHTML = ("0" + hours).slice(-2);
         //document.getElementById("minutes").innerHTML = ("0" + minutes).slice(-2);
         //document.getElementById("seconds").innerHTML = ("0" + seconds).slice(-2);
-        document.getElementById("showclock").innerHTML = "<p>" + hours + ":" + minutes + ":" + seconds + "</p>";
+        document.getElementById("showclock").innerHTML = "<p>D: " + days + "  h: " + hours + ":" + minutes + ":" + seconds + "</p>";
 
       } else {
         return;
