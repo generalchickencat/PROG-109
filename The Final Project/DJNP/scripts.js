@@ -1,8 +1,13 @@
+//This is another chunk of stolen code - it sets up date, then bits of the date.
+//I've added one to the month to account for leap-year math bullarky.
+//I've added 1k to the year to simulate the future timeline of the Inner City.
+//This code does not pay off until way at the bottom... *
 var currentDate = new Date();
 var day = currentDate.getDate();
 var month = currentDate.getMonth()+1;
 var year = currentDate.getFullYear()+1000;
 
+//this is a huge stolen function loop thingy to generate a countdown in javascript only
 function countdown(endDate) {
     let days, hours, minutes, seconds;
     
@@ -43,11 +48,12 @@ function countdown(endDate) {
       }
     }
   }
-  
+  //put in this countdown function what date you want to count down to
+  //not sure what will happen when the date rolls around...
   (function () { 
     countdown('08/17/2018 05:00:00 PM'); 
   }());
 
-
+// * - here's where the date code at the top pays off:
 document.getElementById("timeday").innerHTML = "<p>" + month + "/" + day + "/" + year + "</p>";
 
