@@ -8,6 +8,7 @@ var month = currentDate.getMonth()+1;
 var year = currentDate.getFullYear()+1000;
 
 //this is a huge stolen function loop thingy to generate a countdown in javascript only
+//stolen from here https://codeburst.io/a-countdown-timer-in-pure-javascript-f3cdaae1a1a3
 function countdown(endDate) {
     let days, hours, minutes, seconds;
     
