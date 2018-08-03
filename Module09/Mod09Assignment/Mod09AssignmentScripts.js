@@ -16,4 +16,5 @@ window.addEventListener("click", event => {
     } else if (event.button == 2) {
       console.log("Right button");
     }
-  });*/
+  });
+  */
