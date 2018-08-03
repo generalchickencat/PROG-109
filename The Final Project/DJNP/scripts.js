@@ -52,7 +52,7 @@ function countdown(endDate) {
   //put in this countdown function what date you want to count down to
   //not sure what will happen when the date rolls around...
   (function () { 
-    countdown('08/17/2018 05:00:00 PM'); 
+    countdown('08/17/2018 11:59:00 PM'); 
   }());
 
 // * - here's where the date code at the top pays off:
