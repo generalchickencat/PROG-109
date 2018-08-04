@@ -4,22 +4,32 @@ body {
   background-color:#999999;
   }
 
-h1, h2 {
+h1 {
   font-family: 'BebasNeueBold'; 
   font-weight: normal; 
   font-style: normal;
   text-align: center;
   color:#ffffff;
   text-shadow: 2px 2px 1px #444444;
+  line-height: 2.5em;
+  }
+
+h2 {
+  font-family: 'BebasNeueBold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
   line-height: 2em;
-  }
+}
 
-a:visited{
-  color: #999999;
-  }
-
-i, a {
+a {
+  font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
   color: white;
+  }
+  
+a:visited{
+  font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+  color: #999999;
   }
 
 a:hover {
