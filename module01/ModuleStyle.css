@@ -50,7 +50,7 @@ body {
     columns: #999999;;
     }
   
-  .littleblock, img {
+  .littleblock {
     width: 270px;
     margin: 12px;
     padding: 10px;
@@ -65,6 +65,11 @@ body {
     /* Required for text-overflow to do anything */
     overflow-wrap: normal;
     }
+
+  img {
+    border-style: dotted;
+    border-color: white;
+  }  
   
   hr {
     clear: left;
