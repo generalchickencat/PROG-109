@@ -27,7 +27,7 @@ body {
     color: white;
     }
     
-  a:visited{
+  a:visited {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     color: #999999;
     }
@@ -50,7 +50,7 @@ body {
     columns: #999999;;
     }
   
-  .littleblock {
+  .littleblock, img {
     width: 270px;
     margin: 12px;
     padding: 10px;
