@@ -27,6 +27,7 @@ function validateMe() {
     
     //Phone Number Check
     var phone = document.getElementById("phone").value;
+    var phoneno = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
     if (isNaN(phone) || phone.length >15 || phone===null || phone==="") {
       msg += "<p>Invalid phone number </p>";
     }
