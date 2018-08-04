@@ -3,12 +3,13 @@
     font-family: 'DotriceRegular', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
-    background-color: rgb(50, 110, 112);
+    background-color: rgb(27, 86, 88);
     float: left;
     width: 390px;
     padding: 15px;
     margin-bottom: 20px;
     }
+    /*If the screen is bigger tahn 850px it will use what's below, instead.  This is actually the "default" view for all PCscreens, it's just the syntax that demands we write it second.*/
     @media screen and (min-width: 850px) {
         #theErrors {
             color:cadetblue;
@@ -17,7 +18,7 @@
             font-family: 'DotriceRegular', courier, monospace; 
             font-weight: normal; 
             font-style: normal; 
-            background-color: rgb(50, 110, 112);
+            background-color: rgb(27, 86, 88);
             width: 40%;    
             }
             }
