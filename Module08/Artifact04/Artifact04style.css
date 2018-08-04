@@ -1,13 +1,26 @@
 #theErrors{
     color:cadetblue;
-    float: right;
-    padding: 10px;
     font-family: 'DotriceRegular', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
     background-color: rgb(50, 110, 112);
-    width: 40%;    
+    float: left;
+    width: 390px;
+    padding: 15px;
+    margin-bottom: 20px;
     }
+    @media screen and (min-width: 850px) {
+        #theErrors {
+            color:cadetblue;
+            float: right;
+            padding: 10px;
+            font-family: 'DotriceRegular', courier, monospace; 
+            font-weight: normal; 
+            font-style: normal; 
+            background-color: rgb(50, 110, 112);
+            width: 40%;    
+            }
+            }
 
 h1 {
     font-family: 'GlacialIndifferenceRegular'; 
