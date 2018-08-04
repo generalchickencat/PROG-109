@@ -5,9 +5,10 @@
     font-style: normal; 
     background-color: rgb(27, 86, 88);
     float: left;
-    width: 390px;
+    width: 400px;
     padding: 15px;
     margin-bottom: 20px;
+    margin-left: 3px;
     }
     /*If the screen is bigger tahn 850px it will use what's below, instead.  This is actually the "default" view for all PCscreens, it's just the syntax that demands we write it second.*/
     @media screen and (min-width: 850px) {
@@ -22,6 +23,12 @@
             width: 40%;    
             }
             }
+
+#theForm {
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
 
 h1 {
     font-family: 'GlacialIndifferenceRegular'; 
