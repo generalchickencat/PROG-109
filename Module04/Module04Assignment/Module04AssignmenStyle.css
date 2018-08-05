@@ -6,7 +6,7 @@
     width: 90%;
     margin: 0 auto;
     background-color: #05345c;
-    background-image: url("images/bubbles.png");
+    background-image: url("Images/bubbles.png");
     background-attachment: fixed;
     }
   
@@ -47,7 +47,7 @@
   
   #feature {
     background-color: #ffffff;
-    background-image: url("images/newpepsuber.jpg");
+    background-image: url("Images/newpepsuber.jpg");
     background-position: center center;
     background-size: contain;
   }
