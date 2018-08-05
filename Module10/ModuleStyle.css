@@ -71,7 +71,20 @@ body {
     margin-top: 30px;
     margin-bottom: 10px;
     }
-  
+
+  table.center {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    /*width:80%; - might need this later if the centered/margin/l-r thing doesn't pan out*/
+    }
+
+  table, td, th {
+    border: 3px solid #ffffff;
+    vertical-align: center;
+    padding: 15px;
+    }
+
   .motherfooter {
     position: fixed;
     bottom: 0px;
