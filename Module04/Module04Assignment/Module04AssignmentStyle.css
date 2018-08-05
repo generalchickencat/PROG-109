@@ -5,7 +5,7 @@
   body {
     width: 90%;
     margin: 0 auto;
-    background-color: #05345c;
+    /*background-color: #05345c;*/
     background-image: url("Images/bubbles.png");
     background-attachment: fixed;
     }
