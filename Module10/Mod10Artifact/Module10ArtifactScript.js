@@ -1,4 +1,4 @@
-var myImages = ["http://graypawn.wdfiles.com/local--files/imagebin/cashewchicken.jpg", "http://graypawn.wdfiles.com/local--files/imagebin/PinneappleFriedRice.jpg","http://graypawn.wdfiles.com/local--files/imagebin/SesamyChicken.jpg"];
+var myImages = ["http://graypawn.wdfiles.com/local--files/imagebin/cashewchicken.jpg", "http://graypawn.wdfiles.com/local--files/imagebin/PinneappleFriedRice.jpg","http://graypawn.wdfiles.com/local--files/imagebin/SesamyChicken.jpg","http://graypawn.wdfiles.com/local--files/imagebin/SweetandSour.jpg","http://graypawn.wdfiles.com/local--files/imagebin/WhiteRice.jpg","http://graypawn.wdfiles.com/local--files/imagebin/GeneralChicken.jpg","http://graypawn.wdfiles.com/local--files/imagebin/BBQ%20meal.jpg"];
 
 //var captionImages =["Laugh","Love","Lunch","Happiness","Family"];
 
