@@ -1,13 +1,13 @@
 var myImages = ["http://graypawn.wdfiles.com/local--files/imagebin/cashewchicken.jpg", "http://graypawn.wdfiles.com/local--files/imagebin/PinneappleFriedRice.jpg","http://graypawn.wdfiles.com/local--files/imagebin/SesamyChicken.jpg","http://graypawn.wdfiles.com/local--files/imagebin/SweetandSour.jpg","http://graypawn.wdfiles.com/local--files/imagebin/WhiteRice.jpg","http://graypawn.wdfiles.com/local--files/imagebin/GeneralChicken.jpg","http://graypawn.wdfiles.com/local--files/imagebin/BBQ%20meal.jpg"];
 
-//var captionImages =["Laugh","Love","Lunch","Happiness","Family"];
+var captionImages =["Cashew","Pinneapple","Sesamy","S&S","White Rice","General Tsos","BBQ"];
 
 var index=0; 
 
 function updateImage(){
     document.getElementById("slideshow").src = myImages[index];
-//    document.getElementById("slideshow").alt= captionImages[index];
-//    document.getElementById("caption").textContent = captionImages[index]; 
+    document.getElementById("slideshow").alt= captionImages[index];
+    document.getElementById("caption").textContent = captionImages[index]; 
     } 
 
 function next(){
