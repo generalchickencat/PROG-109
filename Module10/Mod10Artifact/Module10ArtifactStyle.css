@@ -1,15 +1,14 @@
 body {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
-    padding: 22px;
     background-color:#999999;
     margin: auto;
+    text-align: center;
     }
   
   h1 {
     font-family: 'BebasNeueBold'; 
     font-weight: normal; 
     font-style: normal;
-    text-align: center;
     color:#ffffff;
     text-shadow: 2px 2px 1px #444444;
     line-height: 2.5em;
