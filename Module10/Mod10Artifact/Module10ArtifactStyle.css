@@ -29,17 +29,3 @@ body {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     color: red;
     }
-  
-  .motherfooter {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    padding: 10px;
-    margin: 0px;
-    width: 100%;
-    background-color: #444444;
-    font-family: 'RabbidHighwaySignIVRegular', Courier, monospace; 
-    font-weight: normal; 
-    font-style: normal; 
-    font-size: 1.2 em;
-    }
