@@ -10,9 +10,9 @@ function markOff(listItem) { // Step Three: adding the Class: Complete, list ite
   }
   // Step One:  each ID here is for the Area of the Map that we want to be able to click on.
   document.getElementById("cockpit").addEventListener("click", completed, false);
-  document.getElementById("freight").addEventListenter("click", completed, false);
-  document.getElementById("coms").addEventListenter("click", completed, false);
-  document.getElementById("defense").addEventListenter("click", completed, false);
-  document.getElementById("engines").addEventListenter("click", completed, false);
-  document.getElementById("portDock").addEventListenter("click", completed, false);
-  document.getElementById("starDock").addEventListenter("click", completed, false);
+  document.getElementById("freight").addEventListener("click", completed, false);
+  document.getElementById("coms").addEventListener("click", completed, false);
+  document.getElementById("defense").addEventListener("click", completed, false);
+  document.getElementById("engines").addEventListener("click", completed, false);
+  document.getElementById("portDock").addEventListener("click", completed, false);
+  document.getElementById("starDock").addEventListener("click", completed, false);
