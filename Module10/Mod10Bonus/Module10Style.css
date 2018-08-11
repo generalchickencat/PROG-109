@@ -2,12 +2,10 @@ body {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     color: #ffffff;
     background-color:#111c79;
-    text-align: left;
-    margin: 20px;
     }
 
 h1 {
-    font-family: 'BebasNeueBold'; 
+    font-family: 'BebasNeueBold', Helvetica, Arial, sans-serif;
     font-weight: normal; 
     font-style: normal;
     color:#ffffff;
@@ -16,17 +14,26 @@ h1 {
     text-align: center;
     }
 
-theList {
-    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
-    color: #ffffff;
+.header {
+    position: fixed;
+    width: 200px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: #111c79;
+    top: 0px;
+    left: 0px;
     text-align: left;
-    }
-
-.complete {
-    font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
-    color: #999999;
+    overflow-wrap: normal;
 }
 
+.spacer {
+    padding-top: 300px;
+}
+
+.complete {
+    color: #999999;
+}
+/*
 a {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     color: white;
@@ -41,3 +48,4 @@ a:hover {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
     color: red;
     }
+*/
