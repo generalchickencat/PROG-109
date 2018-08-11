@@ -1,14 +1,14 @@
-function markOff(listItem) {
-    var mark = document.getElementById(listItem);
-    mark.className = "complete";
+function markOff(listItem) { // Step Three: adding the Class: Complete, list item is equal to what came out of Completed function
+    var mark = document.getElementById(listItem); //variable: listItem corresponding to event trigger
+    mark.className = "complete"; // adds the class "complete" to list item
   }
   
-  function completed() {
-    var complete = event.target.id;
-    complete += "text";
-    markOff(complete);
+  function completed() { //  Step Two:  when click happens, run "completed" function
+    var complete = event.target.id; // variable: Event is the Click, Target is the area clicked on, ID being the Attribute of that Area
+    complete += "text";  // append "text" onto the end, so now the ID matches the list item ID
+    markOff(complete);  // run the markOff function
   }
-  //this leads to the Area element ID
+  // Step One:  each ID here is for the Area of the Map that we want to be able to click on.
   document.getElementById("cockpit").addEventListener("click", completed, false);
   document.getElementById("freight").addEventListenter("click", completed, false);
   document.getElementById("coms").addEventListenter("click", completed, false);
@@ -16,4 +16,3 @@ function markOff(listItem) {
   document.getElementById("engines").addEventListenter("click", completed, false);
   document.getElementById("portDock").addEventListenter("click", completed, false);
   document.getElementById("starDock").addEventListenter("click", completed, false);
-  
