@@ -38,6 +38,7 @@ h1 {
     margin-left: 200px;
     padding: 10px;
     padding-top: 150px;
+    cursor: crosshair;
 }
 /*.spacer {
     padding-top: 300px;
@@ -45,6 +46,10 @@ h1 {
 
 .complete {
     color: #999999;
+    cursor: crosshair;
+}
+area {
+    cursor: crosshair;
 }
 /*
 a {
