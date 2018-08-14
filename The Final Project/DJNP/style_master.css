@@ -3,7 +3,7 @@
 /*Use ID homepage on pages with a single logo in the middle*/
 body.homepage {
     background-color: #000000;
-    background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_transparent.png");
+    background-image: url("../Images/DJNP_transparent.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body.homepage {
 /*Use ID halfbunny on pages with content in the center of the page*/
 body.halfbunny {
     background-color: #000000;
-    background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_RobotFace.png"), url("http://graypawn.wdfiles.com/local--files/imagebin/DJNP_RabbitFace.png");
+    background-image: url("../Images/DJNP_RobotFace.png"), url("../Images/DJNP_RabbitFace.png");
     background-size: 20%;
     background-repeat: no-repeat;
     background-position: left center, right center;
@@ -99,7 +99,7 @@ a:link {
     color: #ffffff;
     text-decoration: none;
     }
-    
+
 a:visited {
     color: #c2c2c2;
     text-decoration: none;
