@@ -76,8 +76,9 @@ h1 {
 #timeday {
     position: fixed;
     right: 0px;
-    bottom: 10%;
-    padding: 0px, 12px;
+    bottom: 15%;
+    padding-right: 12px;
+    padding-left: 12px;
     font-family: 'LCD14', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
@@ -89,7 +90,8 @@ h1 {
     position: fixed;
     right: 0px;
     bottom: 5%;
-    padding: 0px, 12px;
+    padding-right: 12px;
+    padding-left: 12px;
     font-family: 'LCD14', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
