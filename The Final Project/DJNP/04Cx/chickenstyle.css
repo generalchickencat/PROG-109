@@ -45,16 +45,34 @@ body {
     border-color: rgb(240, 214, 160);
     padding: 10px;
     background-color: #412603;
-    margin: auto;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     }
 
-img {
+.maindish {
+  border-width: 2px;
+  border-style: inset;
+  border-color: rgb(240, 214, 160);
+  padding: 10px;
+  background-color: #412603;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  height: 175px;
+  }
+
+.chickenlinks {
     border-width: 2px;
     border-style: dotted;
     border-color: rgb(240, 214, 160);
     padding: 10px;
     background-color: #412603;
     margin: auto;
+    float: center;
+    width: 150px;
+    height: 150px;
     }
 
 
@@ -97,6 +115,7 @@ img {
     margin-top: 30px;
     margin-bottom: 10px;
     border-color: rgb(240, 214, 160);
+    clear: both;
     }
 
   .motherfooter {

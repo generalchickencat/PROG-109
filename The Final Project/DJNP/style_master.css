@@ -178,7 +178,12 @@ a:hover {
     font-weight: normal; 
     font-style: normal;
     font-size: 1.2em;
+    text-align: center;
 }
+
+.centerediv {
+    text-align: center;
+    }
 
 /*HX section Code*/
 
@@ -200,4 +205,23 @@ a:hover {
 .albumnotes {
     font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif;
     font-size: .9em;
+    }
+
+/*Cx section Code*/
+
+#artifacts {
+    background-image: url('http://graypawn.wdfiles.com/local--files/imagebin/Pixels_sparent_small.png');
+    background-size: 90px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-top: 2px;
+    border-bottom: 2px;
+/*    border-style: dotted;
+    border-color:#ffffff;
+*/    padding: 24px;
+    margin: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    /* Required for text-overflow to do anything */
+    overflow-wrap: normal;
     }
