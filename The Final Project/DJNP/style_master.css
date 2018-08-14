@@ -172,3 +172,25 @@ a:hover {
     color: #790707;
     text-decoration: none;
     }
+
+/*HX section Code*/
+
+.albumblock {
+    margin: auto;
+    width: 90%;
+    padding: 12px;
+    }
+.albumcover {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    }
+.albumtitle {
+    font-family: 'VTFMisterPixelRegular', Courier, monospace;
+    color: #e8112d;
+    font-size: 1.2em;
+    }
+.albumnotes {
+    font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    }
