@@ -94,9 +94,14 @@ h1 {
     text-align: center;
     width: 20%;
     }
-
+  
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
 a:visited {
-    color: #790707;
+    color: #c2c2c2;
     text-decoration: none;
     }
   
@@ -106,11 +111,6 @@ a:active {
     }
 
 a:hover {
-    color: #000000;
-    text-decoration: none;
-    }
-  
-a:link {
-    color: #ffffff;
+    color: #790707;
     text-decoration: none;
     }
