@@ -27,26 +27,93 @@
             <li class="centerlist"><a href="../02about/index.html">about</a></li>
             <li class="centerlist"><a href="../03Hx/index.html">Hx</a></li>
             <li class="centerlist"><a href="../04Cx/index.html">Cx</a></li>
-            <li class="centerlist"><a href="../05artifacts/index.html">Artifacts</a></li>
+            <li class="centerlist"><a href="../05artifacts/index.html">artifacts</a></li>
             <li class="centerlist"><a href="#">contact</a></li>
         </ul>
     </div>
 <!-- End universal Header -->
 
     <div id="subcontent">
+        
+    <h1>Contact Nickelpawn</h1>
+    <!-- could we have this be hidden until it's populated??? -->
+    <div id="theErrors"></div>
+    <!--Add the URL to your Thank you page -->
+    <form action="ThankYou.html" method="get" id="theForm" target="_blank">
+    <!-- User Information -->
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="chasisname">Enter Machinae Alnum ID</label>
+            <br>
+            <input type="text" id="chasisname">
+            <br>
+            <br>
+            <label for="firstname">Enter Firstname (Max 20 characters) </label>
+            <br>
+            <input type="text" id="firstname">
+            <br>
+            <label for="lastname">Enter Lastname (Max 50 characters) </label>
+            <br>
+            <input type="text" id="lastname">
+            <br>
+            <br>
+            <label for="email">Enter Email</label>
+            <br>
+            <input type="text" id="email">
+            <br>
+        <!--<label for="phone">Enter Phone Number (Max 15 Characters) </label>
+            <br>
+            <input type="text" id="phone">
+            <br> 
+            <label for="username">Enter Username (Max 12 Characters)</label>
+            <br>
+            <input type="text" maxlength="12" id="username">
+            <br>
+            <label for="passwyrd">Enter Password (Max 7 Characters)</label>
+            <br>
+            <input type="password" maxlength="7" id="passwyrd">
+        -->
+
+        </fieldset>
+    <!-- Current Address -->
+        <fieldset>
+            <legend>Current Address</legend>
+            <label for="address">Enter Address</label>
+            <br>
+            <input type="text" name="address" id="address" size="50">
+            <br>
+            <label for="district">Enter District</label>
+            <br>
+            <input type="text" name="district" id="city">
+            <br>
+            <label for="Quadrant">Choose Quadrant</label>
+            <br>
+            <select id="Quadrant">
+                <option>Exodus</option>
+                <option>Acid</option>
+                <option>Clover</option>
+                <option>Troth</option>
+                <option>Sonder</option>
+                <option>Terminus</option>
+            </select>
+            <br>
+        <!--<label for="zipcode">Enter zipcode</label>
+            <br>
+            <input type="text" name="zip" id="zipcode">
+        -->
+        </fieldset>
+    <!-- Comments -->
         <br>
-        <style>
-        .temp {
-            text-align: center;
-        }
-        img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        }
-        </style>
-        <p class="temp"><strong>JUST GET READY OK?</strong></p>
-        <img src="http://graypawn.wdfiles.com/local--files/imagebin/Pixels_sparent_small.png" alt="an image of the old pixilated DJ Nicklepawn Logo" style="width:40%">
+        <fieldset>
+            <legend>Feel free to add comments</legend>
+            <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <br>
+        <input id="submit" type="submit" value="Submit">
+        <input id="cancel" type="submit" value="Cancel">
+    </form>
+
         
     </div>
     
