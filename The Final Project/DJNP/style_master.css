@@ -23,13 +23,15 @@ body.halfbunny {
 }
 
 #header {
+    position: fixed;
+    background-color: #e8112d;
+    width: 100%;
+    margin-top: -80px;
+    /*margin: 5% 0% 5% 0%;*/
     font-family: 'PressStart2PRegular', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
-    background-color: #e8112d;
-    padding: 0.1em 0;
     color: #ffffff;
-    margin: 7% 0% 5% 0%;
     text-align: center;
     }
 
@@ -41,25 +43,30 @@ body.halfbunny {
 
 
 #homecontent {
-    font-family: 'BeingHumannormalhuman'; 
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
     font-weight: normal; 
     font-style: normal;
     margin: 0% 10%;
 }
 #subcontent {
-    font-family: 'RobotoRegular', arial, Arial, Helvetica, sans-serif;
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
     font-weight: normal; 
     font-style: normal;
     margin: 10% 25%;
 }
 
 strong {
-    font-family: 'RetroscapeRegular'; 
+    font-family: 'RobotoCondensedBold', Arial, Helvetica, sans-serif;
     font-weight: bold; 
     color:#e8112d;
     } 
     
-
+h1 {
+    font-family: 'VTFMisterPixelRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    color:#e8112d;
+    }
 
 #timeday {
     position: fixed;
