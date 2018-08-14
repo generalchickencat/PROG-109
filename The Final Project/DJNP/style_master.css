@@ -209,19 +209,27 @@ a:hover {
 
 /*Cx section Code*/
 
-#artifacts {
-    background-image: url('http://graypawn.wdfiles.com/local--files/imagebin/Pixels_sparent_small.png');
-    background-size: 90px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    border-top: 2px;
-    border-bottom: 2px;
-/*    border-style: dotted;
-    border-color:#ffffff;
-*/    padding: 24px;
-    margin: 12px;
+.artifacts {
+    border-bottom: dotted;
+    border-width: 2px;
+    width: 80%;
+    margin: auto;
+    font-family: 'VTFMisterPixelRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    text-align: center;
     text-align: center;
     text-overflow: ellipsis;
     /* Required for text-overflow to do anything */
     overflow-wrap: normal;
+    }
+.screenpreview {
+    margin: 3px;
+    width: 30%;
+    }
+.artifactdescription {
+    font-family: 'RobotoCondensedBold', Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color:#ffffff;
+    font-size: .8em;
     }
