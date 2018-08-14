@@ -48,24 +48,24 @@ body {
     margin: auto;
     }
 
-/*img {
+img {
     border-width: 2px;
     border-style: dotted;
     border-color: rgb(240, 214, 160);
     padding: 10px;
     background-color: #412603;
     margin: auto;
-    }*/
+    }
 
 
   a {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
-    color: #999999;
+    color: #5c4314;
     }
     
   a:visited {
     font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
-    color: #444444;
+    color: #999999;
     }
   
   a:hover {
@@ -98,7 +98,7 @@ body {
     margin-bottom: 10px;
     border-color: rgb(240, 214, 160);
     }
-/*  
+
   .motherfooter {
     position: fixed;
     bottom: 0px;
@@ -106,9 +106,9 @@ body {
     padding: 10px;
     margin: 0px;
     width: 100%;
-    background-color: #444444;
+    background-color: #412603;
     font-family: 'RabbidHighwaySignIVRegular', Courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
     font-size: 1.2 em;
-    }*/
+    }

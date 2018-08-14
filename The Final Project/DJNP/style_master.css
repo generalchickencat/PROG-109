@@ -173,6 +173,13 @@ a:hover {
     text-decoration: none;
     }
 
+.fancylinks {
+    font-family: 'VTFMisterPixelRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 1.2em;
+}
+
 /*HX section Code*/
 
 .albumblock {
