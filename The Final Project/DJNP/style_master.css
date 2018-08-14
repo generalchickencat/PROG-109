@@ -60,13 +60,19 @@ body.halfbunny {
     font-weight: normal; 
     font-style: normal;
     margin: 0% 10%;
-}
+    }
 #subcontent {
     font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
     font-weight: normal; 
     font-style: normal;
     margin: 10% 25%;
-}
+    }
+
+.robotocopy {
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    }
 
 strong {
     font-family: 'RobotoCondensedBold', Arial, Helvetica, sans-serif;
@@ -80,9 +86,13 @@ h1 {
     font-style: normal;
     color:#e8112d;
     }
-
-/*#homelyrics {
-    }*/
+        
+h2 {
+    font-family: 'VTFMisterPixelRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    color:#c2c2c2;
+    }
 
 #sideintro {
     display: hidden;
@@ -183,6 +193,37 @@ a:hover {
 
 .centerediv {
     text-align: center;
+    }
+
+.rightdiv {
+    text-align: left;
+    width: 90%;
+    margin: 13px;
+    } 
+    /*Uses this code on screens larger than 650px*/   
+    @media screen and (min-width: 650px) {
+    .rightdiv {
+        text-align: left;
+        width: 30%;
+        margin: 13px;
+    }}
+
+/*About section Code*/
+.truth {
+    font-family: 'VTFMisterPixelRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 9px;
+    }
+
+a.truth {
+    color: #020202;
+    }
+
+a.truth:hover {
+    color: #c2c2c2;
     }
 
 /*HX section Code*/
