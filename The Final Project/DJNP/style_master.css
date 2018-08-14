@@ -233,3 +233,11 @@ a:hover {
     color:#ffffff;
     font-size: .8em;
     }
+
+/*Newest News*/
+h3 {
+    font-family: 'LCD14', courier, monospace; 
+    font-weight: normal; 
+    font-style: normal; 
+    color: #c2c2c2;
+    }
