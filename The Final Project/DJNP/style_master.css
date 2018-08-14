@@ -75,8 +75,8 @@ h1 {
 
 #timeday {
     position: fixed;
-    bottom: 20%;
-    padding-right: 12px;
+    bottom: 10%;
+    padding: 12px;
     font-family: 'LCD14', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
@@ -86,8 +86,8 @@ h1 {
     }
 #showclock {
     position: fixed;
-    bottom: 10%;
-    padding-right: 12px;
+    bottom: 5%;
+    padding: 12px;
     font-family: 'LCD14', courier, monospace; 
     font-weight: normal; 
     font-style: normal; 
@@ -101,6 +101,7 @@ h1 {
         position: fixed;
         left: 0px;
         bottom: 20%;
+        padding-left: 12px;
         font-family: 'LCD14', courier, monospace; 
         font-weight: normal; 
         font-style: normal; 
@@ -114,6 +115,7 @@ h1 {
         position: fixed;
         right: 0px;
         bottom: 20%;
+        padding-right: 12px;
         font-family: 'LCD14', courier, monospace; 
         font-weight: normal; 
         font-style: normal; 
