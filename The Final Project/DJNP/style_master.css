@@ -3,14 +3,26 @@
 /*Use ID homepage on pages with a single logo in the middle*/
 body.homepage {
     background-color: #000000;
-    background-image: url("../Images/DJNP_transparent.png");
+    background-image: url('../Images/DJNP_transparent_hlfprnt.png');
     background-size: 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     margin: auto;
     color: #ffffff;
-    }
+    }    
+    /*uses below for screens bigger than 650px*/
+    @media screen and (min-width: 650px) {
+    body.homepage {
+        background-color: #000000;
+        background-image: url("../Images/DJNP_transparent.png");
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        margin: auto;
+        color: #ffffff;
+        }}
 /*Use ID halfbunny on pages with content in the center of the page*/
 body.halfbunny {
     background-color: #000000;
@@ -99,7 +111,7 @@ h1 {
     text-align: center;
     color: #ffffff;
     }
-/*If the screen is bigger tahn 850px it will use what's below, instead.  This is actually the "default" view for all PCscreens, it's just the syntax that demands we write it second.*/
+/*If the screen is bigger tahn 650px it will use what's below, instead.  This is actually the "default" view for all PCscreens, it's just the syntax that demands we write it second.*/
 @media screen and (min-width: 650px) {
     #timeday {
         position: fixed;
