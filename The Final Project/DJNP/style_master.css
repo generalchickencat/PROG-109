@@ -73,7 +73,7 @@ h1 {
 
     }
 
-#timeday, #showclock {
+#timeday {
     position: fixed;
     bottom: 20%;
     font-family: 'LCD14', courier, monospace; 
@@ -82,7 +82,17 @@ h1 {
     background-color: #e8112d;
     text-align: center;
     color: #ffffff;
-}
+    }
+#showclock {
+    position: fixed;
+    bottom: 10%;
+    font-family: 'LCD14', courier, monospace; 
+    font-weight: normal; 
+    font-style: normal; 
+    background-color: #e8112d;
+    text-align: center;
+    color: #ffffff;
+    }
 /*If the screen is bigger tahn 850px it will use what's below, instead.  This is actually the "default" view for all PCscreens, it's just the syntax that demands we write it second.*/
 @media screen and (min-width: 650px) {
     #timeday {
