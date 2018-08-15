@@ -1,13 +1,18 @@
 * {
-    font-family: Arial, Verdana, sans-serif;
-    text-align: center;}
+  font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
+  font-weight: normal; 
+  font-style: normal;
+      text-align: center;}
   
   body {
     width: 90%;
     margin: 0 auto;
     /*background-color: #05345c;*/
-    background-image: url("Images/bubbles.png");
+    background-image: url("../../Images/chepsy_pattern.jpg");
     background-attachment: fixed;
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
     }
   
   #TopLogo {
@@ -17,22 +22,32 @@
     font-style: normal;
     font-size: 300%;
   }
+
+  #logo {
+    width: 20%;
+  }
+
+  h1, h2 {
+    color: #ffffff;
+  }
   
   #content {
     overflow: auto;}
   
   #nav, #feature, #footer {
-    margin: 1%;}
+    margin: 1%;
+    }
   
   .column1, .column2, .column3 {
     width: 31.3%;
     float: left;
-    margin: 1%;}
+    margin: 1%;
+    }
   
   .column1 {
     background-color: #0085ca;
-    color: #ffffff
-  }
+    color: #ffffff;
+    }
   
   .column2 {
     background-color: #ffffff;
@@ -46,26 +61,62 @@
   }
   
   #feature {
-    background-color: #ffffff;
-    background-image: url("Images/newpepsuber.jpg");
+    background-color: #05345c;
+    background-image: url("../../Images/chepsybacker.jpg");
     background-position: center center;
-    background-size: contain;
-  }
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'RobotoCondensedBold', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    color: #05345c;
+    }
   
+  #bigfeature {
+    font-family: 'RacingSansOneRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+  #lilfeature {
+    font-family: 'RadisSansRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 2em;
+    color: #ffffff;
+    position: relative;
+    top: 10%;
+    transform: translateY(-80%); 
+    }
+
   li {
     display: inline;
     padding: 0.5em;}
   
+  a.navlinks {
+    font-family: 'RobotoCondensedBold', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 1.6em;
+    margin: 9px;
+  }
+
   a.navlinks:visited {
     color: #05345c;
   }
   
   a.navlinks:active {
-    color: #0085ca
+    color: #0085ca;
   }
   
   a.navlinks:link {
-    color: #ffffff
+    color: #ffffff;
   }
   
   #nav, #footer {
