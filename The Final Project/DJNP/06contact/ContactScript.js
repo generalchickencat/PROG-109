@@ -10,13 +10,13 @@ function validateMe() {
     //First name check
     firstName = document.getElementById('firstname').value;
     if (firstName===null || firstName==="" || firstName.length > 20 || !firstName.match(letters)){
-      msg += '<p>First name required :: cannot be greater than 20 characters</p>';
+      msg += '<p>&nbsp;&nbsp;First name required<br>&nbsp;&nbsp;cannot be greater than 20 characters</p>';
     }
 
     //Last name check
     lastName = document.getElementById('lastname').value;
     if (lastName===null || lastName==="" || lastName.length > 50 || !lastName.match(letters)){
-      msg += '<p>Last name required :: cannot be greater than 50 characters.</p>';
+      msg += '<p>&nbsp;&nbsp;Last name required<br>&nbsp;&nbsp;cannot be greater than 50 characters.</p>';
     }
 
     //email check
@@ -24,19 +24,19 @@ function validateMe() {
     var atpos = userEmail.indexOf("@");
     var dotpos = userEmail.lastIndexOf(".");
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-      msg += '<p>Invalid email</p>';
+      msg += '<p>&nbsp;&nbsp;Invalid email</p>';
     }
 
     //address check
     var addy = document.getElementById('address').value;
     if (addy===null || addy==="") {
-      msg += '<p> Error: address</p>';
+      msg += '<p>&nbsp;&nbsp;Error: address</p>';
     }
 
     //district check
     var district = document.getElementById('district').value;
     if (district===null || district==="") {
-      msg += '<p> Error: city</p>';
+      msg += '<p>&nbsp;&nbsp;Error: city</p>';
     }
   
   //Add the errors messages into div
