@@ -28,3 +28,12 @@
     padding: 5px;
     margin-bottom: 40px;
 }
+
+body {
+    background-color: cadetblue;
+}
+
+form {
+    background-color: white;
+    float: left;
+}
