@@ -82,6 +82,13 @@ h2 {
     color:#c2c2c2;
     }
 
+p {
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    margin: 2%;
+}
+
 #theForm {
     background-color: white;
     float: left;
