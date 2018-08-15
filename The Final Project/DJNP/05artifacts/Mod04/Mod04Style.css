@@ -1,35 +1,23 @@
-/* Here's my font options - i picked one that's kinda fancyhandwritteny
-p { 
-    font-family: 'AnalectaRegular'; 
-    font-weight: normal; 
-    font-style: normal; 
- }
- p { 
-   font-family: 'YantiqRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
-}
- */
-
  * {
     text-align: center
 }
 
 body {
-    background-image: url("http://graypawn.wdfiles.com/local--files/imagebin/the-western-gaines-request.jpg");     background-repeat: no-repeat;
+    background-image: url("ChessPieces/5069834249_6e4e1e1357_b.jpg");
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 
 h1 {
-    font-family: 'analectaRegular';
+    font-family: 'VTFMisterPixelRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #fffff9;
+    color: #c2c2c2;
     font-size: 5em;
     margin: 2% 0% 10% 0%;
-    background-color: rgba(80, 59, 6, 0.541);
+    background-color: rgba(107, 107, 107, 0.55);
 }
 #board {
    margin: auto;
@@ -46,52 +34,84 @@ h1 {
    background-size: 60px;
 }
 .black {
-   background-color: #1c1d1d;
+   background-color: #424242;
 }
 .white {
-   background-color: lightyellow;
+   background-color: #ffffff;
 }
 
 .blackrook {
-   background-image: url("chess_icons/black-castle.png");
+   background-image: url("ChessPieces/Black_Rook.svg");
 }
 .blackknight {
-   background-image: url("chess_icons/black-knight.png");
+   background-image: url("ChessPieces/Black_Knight.svg");
 }
 .blackbishop {
-   background-image: url("chess_icons/black-bishop.png");
+   background-image: url("ChessPieces/Black_Bishop.svg");
 }
 .blackqueen {
-   background-image: url("chess_icons/black-queen.png");
+   background-image: url("ChessPieces/Black_Queen.svg");
 }
 .blackking {
-   background-image: url("chess_icons/black-king.png");    
+   background-image: url("ChessPieces/Black_King.svg");    
 }
 .blackpawn {
-   background-image: url("chess_icons/black-pawn.png");
+   background-image: url("ChessPieces/Black_Pawn.svg");
 }
 
 .whiterook {
-   background-image: url("chess_icons/gold-castle.png");
+   background-image: url("ChessPieces/White_Rook.svg");
 }
 .whiteknight {
-   background-image: url("chess_icons/gold-knight.png");
+   background-image: url("ChessPieces/White_Knight.svg");
 }
 .whitebishop {
-   background-image: url("chess_icons/gold-bishop.png");
+   background-image: url("ChessPieces/White_Bishop.svg");
 }
 .whitequeen {
-   background-image: url("chess_icons/gold-queen.png");
+   background-image: url("ChessPieces/White_Queen.svg");
 }
 .whiteking {
-   background-image: url("chess_icons/gold-king.png");    
+   background-image: url("ChessPieces/White_King.svg");    
 }
 .whitepawn {
-   background-image: url("chess_icons/gold-pawn.png");
+   background-image: url("ChessPieces/White_Pawn.svg");
 }
 
+p, address {
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    margin: 2%;
+    }
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: #c2c2c2;
+    text-decoration: none;
+    }
+
+a:active {
+    color: #eb008b;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: #790707;
+    text-decoration: none;
+    }
+
 footer {
-   background-color: rgba(80, 59, 6, 0.541);
-   padding: 2px;
-   margin-top: 10%;
-}
+    background-color: rgba(107, 107, 107, 0.55);
+    padding: 2px;
+    margin-top: 10%;
+    font-family: 'RobotoCondensedRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 2.2 em;
+    line-height: 3em;
+    }
