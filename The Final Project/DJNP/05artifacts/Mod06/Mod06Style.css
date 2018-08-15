@@ -2,22 +2,39 @@
     float: left;
     
     }
-    #downLeft {
+
+#downLeft {
     float: left;
     }
-    #upRight {
-    
+
+#upRight {
     float: left;
     }
     
-    #downRight {
-    
+#downRight {
     float: left;
     }
-    .clear {
+    
+.clear {
     clear: both;
     }
 
-    .blanks {
-    color:white;
+.blanks {
+    color:black;
     }
+
+body {
+    background-color: #000000;
+    background-image: url("../../../Images/DJNP_RabbitFace.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    margin: auto;
+    color: #ffffff;
+    }
+
+#thewholeshebang {
+    margin-top: 3%;
+    margin-left: 10%;
+}

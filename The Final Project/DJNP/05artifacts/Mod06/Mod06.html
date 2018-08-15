@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <div id="thewholeshebang">
     <label>What is the size of Rhombus?</label>
     <br>
     <input type="text" id="rHeight" value="5" size="5">
@@ -16,16 +17,16 @@
     <label>Choose color for Even position</label>
     <br>
     <select id="colorEven">
-        <option value="#0000FF">Blue</option>
-        <option value="#FF0000">Red</option>
-        <option value="#FF9900">Orange</option>
+        <option value="#ffffff">White</option>
+        <option value="#e8112d">Red</option>
+        <option value="#a1a1a1">Silver</option>
     </select>
     <br>
 
     <label>Choose color for Odd position</label>
     <br>
     <select id="colorOdd">
-        <option value="#FF0099">Pink</option>
+        <option value="#e8112d">Red</option>
         <option value="#33FF00">Green</option>
         <option value="#660099">Purple</option>
     </select>
@@ -39,9 +40,9 @@
     <br>
     <!-- This is JavaScript that finishes the build of the rhombus? -->
     <button onclick="createRhombus(document.getElementById('rHeight').value,
-document.getElementById('colorEven').value,
-document.getElementById('colorOdd').value,
-document.getElementById('symbol').value);">Display Rhombus</button>
+    document.getElementById('colorEven').value,
+    document.getElementById('colorOdd').value,
+    document.getElementById('symbol').value);">Display Rhombus</button>
 <br>
     <div id="upLeft"></div>
     <div id="upRight"></div>
@@ -54,7 +55,7 @@ document.getElementById('symbol').value);">Display Rhombus</button>
 
     
 <script src="Mod06Script.js"></script>
-
+</div>
 </body>
 
 </html>
