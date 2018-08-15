@@ -14,9 +14,11 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roboto" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roboto-condensed" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roboto-condensed-bold" type="text/css"/>
-
+    <!-- Special Fonts -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dotrice" type="text/css"/>
 <!-- link to the master style sheet -->
-    <link rel="stylesheet" href="../style_master.css" type="text/css" />
+    <link rel="stylesheet" href="ContactStyle.css" type="text/css" />
   </head>
 
   <body class="halfbunny">
@@ -34,7 +36,7 @@
 <!-- End universal Header -->
 
     <div id="subcontent">
-        
+    
     <h1>Contact Nickelpawn</h1>
     <!-- could we have this be hidden until it's populated??? -->
     <div id="theErrors"></div>
@@ -43,11 +45,11 @@
     <!-- User Information -->
         <fieldset>
             <legend>User Information</legend>
-            <label for="chasisname">Enter Machinae Alnum ID</label>
+            <!--<label for="chasisname">Enter Machinae Alnum ID</label>
             <br>
             <input type="text" id="chasisname">
             <br>
-            <br>
+            <br>-->
             <label for="firstname">Enter Firstname (Max 20 characters) </label>
             <br>
             <input type="text" id="firstname">
@@ -86,9 +88,9 @@
             <br>
             <input type="text" name="district" id="city">
             <br>
-            <label for="Quadrant">Choose Quadrant</label>
+            <label for="quadrant">Choose Quadrant</label>
             <br>
-            <select id="Quadrant">
+            <select id="quadrant">
                 <option>Exodus</option>
                 <option>Acid</option>
                 <option>Clover</option>
@@ -105,24 +107,17 @@
     <!-- Comments -->
         <br>
         <fieldset>
-            <legend>Feel free to add comments</legend>
+            <legend>Send us a li'l Message</legend>
             <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
         </fieldset>
 
         <br>
         <input id="submit" type="submit" value="Submit">
-        <input id="cancel" type="submit" value="Cancel">
     </form>
-
-        
     </div>
-    
+<script src="ContactScript.js"></script>
 <!-- here is the expiramental sub header stuff -->    
-<div id="timeday"></div>
-
-<div id="showclock"></div>
-
-<script src="../scripts.js"></script>
-
+<!--<div id="timeday"></div>
+<div id="showclock"></div>-->
   </body>
 </html>

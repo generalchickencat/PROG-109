@@ -275,6 +275,38 @@ a.truth:hover {
     font-size: .8em;
     }
 
+/*Contact Form*/
+#theErrors{
+    color:#020202;
+    font-family: 'DotriceRegular', courier, monospace; 
+    font-weight: normal; 
+    font-style: normal; 
+    background-color: #790707;
+    float: left;
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    }
+    /*If the screen is bigger tahn 850px it will use what's below, instead.  This is actually the "default" view for all PCscreens, it's just the syntax that demands we write it second.*/
+    @media screen and (min-width: 850px) {
+        #theErrors {
+            float: right;
+            padding: 10px;
+            font-family: 'DotriceRegular', courier, monospace; 
+            font-weight: normal; 
+            font-style: normal; 
+            background-color: #790707;
+            width: 40%;    
+            }
+            }
+
+#theForm {
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
 /*Newest News*/
 h3 {
     font-family: 'LCD14', courier, monospace; 
