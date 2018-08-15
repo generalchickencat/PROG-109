@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Slideshow</title>
+    <title>Sharkey's Slideshow Scrapbook</title>
     <meta name="description" content="Week #9 - Slideshow - YU2">
     <meta charset="utf-8">
     <link rel="stylesheet" href="Mod10Style.css" />
-    <!-- Fonts! -->
+<!-- Fonts! -->
+    <!-- Header Font, Footer Font, h1 font fonts -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/press-start-2p" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lcd" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/mr-pixel" type="text/css"/>
+    <!-- body copy fonts -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roboto" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roboto-condensed" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roboto-condensed-bold" type="text/css"/>
+    <!-- Special Fonts -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dotrice" type="text/css"/> 
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/intuitive" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/rabbid-highway-sign-iv" type="text/css"/>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-    <!-- End Fonts! -->
+<!-- End Fonts! -->
 </head>
 <body>
-    <h1>Slideshow</h1> 
-    <input id="auto" type="checkbox"><label for="auto">Run automatically</label>
-        <br><br>
-    <img id="slideshow" src="SlideshowImages/audience-1850022_1920.jpg" height="200" alt="Cashew">
-    
-    <p id="caption">Cashew</p>
-    
-    <button id="previous">PREVIOUS</button>
-    <button id="next">NEXT</button> 
-    <p>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
-                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-                alt="Valid CSS!" />
-        </a>
-    </p>
-    <p>
-        <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgeneralchickencat.github.io%2FPROG-109%2FModule10%2FMod10Artifact%2FModule10Artifact.html">
-            <img style="border:0;width:88px;height:31px"
-                src="https://www.w3.org/Icons/valid-html401-blue"
-                alt="Valid HTML!" />
-        </a>
-    </p>
+    <h1>Sharky's Slideshow Scrapbook</h1> 
+    <br>
+    <img id="slideshow" src="https://generalchickencat.github.io/PROG-109/The%20Final%20Project/DJNP/05artifacts/Mod10/SlideshowImages/audience-1850022_1920.jpg" height="300" alt="Black Tie Affair">
+    <br>
+    <br>
 
+<!-- the big red ribbon along the bottom -->
+<div id="buttonribbon">
+    <button id="previous" class="centerlist">PREVIOUS</button>
+
+    <p id="caption" class="centerlist">Black Tie Affair</p>
+    
+    <button id="next" class="centerlist">NEXT</button>
+    <br>
+    <input id="auto" type="checkbox"><label for="auto" class="auto">Run automatically</label>
+</div>
+
+<br><br>
+
+<!-- Start the link to the Old Assignment -->
+<div class="motherfooter">
+        <a href="../../../../Module10/Mod10Artifact/Module10Artifact.html" target="_blank">The original assignment is here.</a></div>
     <script src="Mod10Script.js"></script>
 
 </body>
